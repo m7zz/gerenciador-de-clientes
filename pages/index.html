@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clientes</title>
+
+    <link rel="stylesheet" href="/public/css/global.css" />
+    <link rel="stylesheet" href="/public/css/index.css" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+  </head>
+
+  <body class="index-page">
+    <!-- Hero -->
+    <section class="index-hero">
+      <div class="container">
+        <div>
+          <p class="index-hero__subtitle">Gerenciamento</p>
+          <h1 class="index-hero__title">Clientes</h1>
+        </div>
+
+        <a href="/novo">
+          <button class="btn btn-primary">+ Cadastrar</button>
+        </a>
+      </div>
+    </section>
+
+    <!-- Conteúdo -->
+    <main class="index-content">
+      <div class="container">
+        <div class="table-wrapper">
+          <table id="clientes-table">
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Endereço</th>
+                <th>Ações</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+    </main>
+
+    <script type="module" src="./public/js/index.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  </body>
+</html>
